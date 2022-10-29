@@ -1,8 +1,13 @@
 class Hello:
     def __init__(self, name):
-        self.name = name
-        self.age = 10
+        self.a = 10
+        self._b = 20
+        self.___C = 30
 
 
-hell = Hello('love')
-#hell2 = Hello('alex', 'vish', 'abliblueblue', 'ddd', name='abc123')
+hell = Hello("vish")
+
+
+print(hell.a)
+print(hell._b)
+print(hell.__c)
